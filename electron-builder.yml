@@ -1,0 +1,37 @@
+# Electron build yml
+appId: com.lnrp.launcher
+productName: LNRP Launcher
+directories:
+  buildResources: build
+files:
+  - '!**/.vscode/*'
+  - '!src/*'
+  - '!electron.vite.config.*'
+  - '!{.env,.env.*}'
+
+extraMetadata:
+    version: 1.1.3
+win:
+    target:
+      - nsis
+      - msi
+    executableName: lnrp-launcher
+    icon: build/icon.ico
+
+nsis:
+    oneClick: false
+    perMachine: false
+    createDesktopShortcut: always
+
+msi:
+    oneClick: false
+    perMachine: false
+    createDesktopShortcut: true
+    createStartMenuShortcut: true
+    runAfterFinish: true
+    upgradeCode: "50f03e08-1996-4cd5-931b-ecb309195365"
+# Where the launcher looks for new versions. Upload the files electron-builder
+# creates in dist/ (the .exe installer and latest.yml) to this URL.
+publish:
+  provider: generic
+  url: https://updates.example.com/launcher/

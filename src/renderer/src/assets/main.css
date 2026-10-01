@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/*
+  Design tokens. Barlow is the typeface the California highway signs were
+  modelled on, which suits a Los Santos server. Colours: night-blue window,
+  sodium-lamp amber for the one action that matters, license-plate paper
+  and blue for the server's name.
+*/
+@theme {
+  --font-sans: "Barlow", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Barlow Condensed", "Barlow", ui-sans-serif, system-ui, sans-serif;
+
+  --color-night: #0f1b26;
+  --color-panel: #16283a;
+  --color-line: #27415a;
+  --color-ink: #e6edf3;
+  --color-muted: #93a7ba;
+  --color-sodium: #f0a92e;
+  --color-plate: #f1ecd9;
+  --color-plate-ink: #1f3f9b;
+  --color-ok: #4cc38a;
+  --color-bad: #e5534b;
+}
+
+/* Frameless window: the title bar drags the window, its buttons don't. */
+@utility drag {
+  -webkit-app-region: drag;
+}
+@utility no-drag {
+  -webkit-app-region: no-drag;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-night);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 5px;
+}
