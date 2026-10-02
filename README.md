@@ -7,19 +7,25 @@ Kompaktne klientide platvorm FiveM rollimängu serverite loojatele ja arendajate
 ---
 
 ## Sisukord
-
-1. [Ülevaade](#ülevaade)
-2. [Kellele see on mõeldud](#kellele-see-on-mõeldud)
-3. [Funktsioonid](#funktsioonid)
-4. [Paigaldus](#paigaldus)
-5. [Turvalisus ja läbipaistvus](#turvalisus-ja-läbipaistvus)
-6. [Keelatud kasutus](#keelatud-kasutus)
-7. [Väärkasutuse tagajärjed](#väärkasutuse-tagajärjed)
-8. [Pahavarast teavitamine](#pahavarast-teavitamine)
-9. [Vastutuse välistamine](#vastutuse-välistamine)
-10. [Litsents ja kontakt](#litsents-ja-kontakt)
+1. [Allalaadimine](#allalaadimine)
+2. [Ülevaade](#ülevaade)
+3. [Kellele see on mõeldud](#kellele-see-on-mõeldud)
+4. [Funktsioonid](#funktsioonid)
+5. [Paigaldus](#paigaldus)
+6. [Turvalisus ja läbipaistvus](#turvalisus-ja-läbipaistvus)
+7. [Keelatud kasutus](#keelatud-kasutus)
+8. [Väärkasutuse tagajärjed](#väärkasutuse-tagajärjed)
+9. [Pahavarast teavitamine](#pahavarast-teavitamine)
+10. [Vastutuse välistamine](#vastutuse-välistamine)
+11. [Litsents ja kontakt](#litsents-ja-kontakt)
 
 ---
+
+## Allalaadimine
+
+Väljastatud programmi saate proovida ja allalaadida all olevalt lingilt Assetite alt.Programm töötab ainult windows süsteemidel teisi süsteeme ei toeta sest FiveM on loodud ainult Windowsi platvormile.
+
+- [LAE ALLA - Windows](https://github.com/NoCapScripts-FiveM/fivem-launcher/releases/tag/v1.1.3)
 
 ## Ülevaade
 
