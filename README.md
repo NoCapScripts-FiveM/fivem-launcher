@@ -49,8 +49,8 @@ Programmi lähtekoodi võivad kasutada FiveM serverite **loojad ja arendajad**, 
 
 ```bash
 # 1. Klooni repositoorium
-git clone <REPO_URL>
-cd <PROJEKTI_KAUST>
+git clone gh repo clone NoCapScripts-FiveM/fivem-launcher
+cd fivem-launcher
 
 # 2. Paigalda sõltuvused
 yarn
